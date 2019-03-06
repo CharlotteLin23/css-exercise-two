@@ -1,10 +1,13 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #EAF3E1;
+  color: #653F0D;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding-bottom: 30px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.3);
   float: left;
   position: fixed;
   width: 100%;
@@ -40,13 +43,52 @@ ul {
 li {
   float: right;
   padding: 30px;
+  font-size: 14px;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#6F4C06; } /* unvisited */
+a:visited { color:#937709; } /* visited */
+a:hover { color:#1F6F06; } /* mouse over */
+a:active { color:#6F4C06; } /* selected */
 
 article {
   padding-top: 100px;
 }
 
+figcaption {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 17px;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+h3 {
+  padding-bottom: 15px;
+}
+
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.author {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.5;
+  padding-bottom: 10px;
 }
