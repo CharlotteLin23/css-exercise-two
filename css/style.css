@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  background-color: rgba(0,0,0,.3);
+  background-color: rgb(169,207,84);
   float: left;
   position: fixed;
   width: 100%;
@@ -50,24 +50,24 @@ a {
   text-decoration: none;
 }
 
-a:link { color:#6F4C06; } /* unvisited */
-a:visited { color:#937709; } /* visited */
+a:link { color:#513210; } /* unvisited */
+a:visited { color:#56229e; } /* visited */
 a:hover { color:#1F6F06; } /* mouse over */
-a:active { color:#6F4C06; } /* selected */
+a:active { color:##d6977a; } /* selected */
 
 article {
   padding-top: 100px;
 }
 
 figcaption {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 h1 {
-  font-size: 17px;
+  font-size: 19px;
   font-style: italic;
   text-transform: uppercase;
   padding-bottom: 15px;
@@ -83,12 +83,12 @@ h3 {
 }
 
 .author {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 p {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
   padding-bottom: 10px;
 }
